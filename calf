@@ -1,5 +1,0 @@
-_calfjackhost() {
-    COMPREPLY=( $(compgen -W "`calfjackhost -L`" -- "${COMP_WORDS[COMP_CWORD]}") )
-    return 0
-}
-complete -F _calfjackhost calfjackhost
